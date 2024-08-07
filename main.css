@@ -1,0 +1,36 @@
+@keyframes floatIn {
+    0% {
+        transform: translateY(175px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.float-in {
+    animation: floatIn 1s ease-out;
+}
+
+/* .card-container {
+    Gaya CSS umum untuk card-container
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    Tambahkan atau sesuaikan gaya CSS lainnya sesuai kebutuhan
+  }
+  
+  .card-container-lg {
+    Gaya CSS khusus untuk card-container-lg
+    padding: 30px;
+    Tambahkan atau sesuaikan gaya CSS lainnya sesuai kebutuhan
+  }
+
+@media (max-width: 767px) {
+    .card-container {
+      padding: 15px;
+    }
+  }
+   */
