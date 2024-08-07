@@ -12,3 +12,8 @@
 .float-in {
     animation: floatIn 1s ease-out;
 }
+
+.spaced {
+    margin-bottom: 20px; /* Atur jarak spasi sesuai kebutuhan */
+  }
+  
